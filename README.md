@@ -8,7 +8,7 @@ rustの練習用コンテナです。ざっと構文や言語仕様を把握す�
 DockerfileのUID、GID、UNAME、GNAME(ARG行)に自分のユーザーID、グループID、  
 ユーザー名、グループ名をセットします。
 
-`docker-compose rust run`  
+`docker-compose run rust`  
 でコンテナに入れます。これらのIDはlinuxであれば  
 `id ユーザー名`  
 で確認できます。
