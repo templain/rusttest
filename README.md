@@ -4,10 +4,11 @@
 rustの練習用コンテナです。ざっと構文や言語仕様を把握するためのサンプルソース(tutorial)付き。
 
 ## 使い方
-DockerfileのUID,GID,UNAME,GNAMEに自分のユーザーID,グループID,ユーザー名、グループ名をセットして  
+DockerfileのUID,GID,UNAME,GNAMEに自分のユーザーID,グループID,ユーザー名、グループ名をセットして  
 `docker-compose rust run`  
-でコンテナに入れます。  
-`cargo new --bin プロジェクト名`  
+でコンテナに入れます。
+
+`cargo new --bin プロジェクト名`  
 でプロジェクトのフォルダが作成されますので、このフォルダの下に移動します。  
 雛形のソース(src/main.rs)をvimで編集し、このフォルダの下で  
 `cargo run`  
