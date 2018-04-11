@@ -9,8 +9,8 @@ DockerfileのUID、GID、UNAME、GNAME(ARG行)に自分のユーザーID、グ�
 ユーザー名、グループ名をセットします。
 
 `docker-compose rust run`  
-でコンテナに入れます。これらのIDはlinuxであれば  
-`id ユーザー名`  
+でコンテナに入れます。これらのIDはlinuxであれば  
+`id ユーザー名`  
 で確認できます。
 
 `cargo new --bin プロジェクト名`  
