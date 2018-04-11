@@ -1,6 +1,10 @@
 # rusttest
-rustの練習用コンテナです。  
-DockerfileのUID,GID,UNAME,GNAMEに自分のユーザーID,グループID,ユーザー名、グループ名をセットして  
+
+## 概要
+rustの練習用コンテナです。ざっと構文や言語仕様を把握するためのサンプルソース(tutorial)付き。
+
+## 使い方
+DockerfileのUID,GID,UNAME,GNAMEに自分のユーザーID,グループID,ユーザー名、グループ名をセットして  
 `docker-compose rust run`  
 でコンテナに入れます。  
 `cargo new --bin プロジェクト名`  
@@ -9,5 +13,6 @@ DockerfileのUID,GID,UNAME,GNAMEに自分のユーザーID,グループID,ユー
 `cargo run`  
 するとsrcの下のプログラムがビルドされて実行されます。
 
-vimではracer、rustfmtというプラグインが使えるようになってます。  
+## Vimプラグイン
+vimにはracer、rustfmtというプラグインをインストールしてます。  
 :RustFmtで整形、挿入モード中にC-x C-oで補完、:RustRunで実行など。
