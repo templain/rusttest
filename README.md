@@ -5,7 +5,7 @@ rustの練習用コンテナです。ざっと構文や言語仕様を把握す�
 
 ## 使い方
 まず最初に作成するプロジェクトファイルのオーナー、グループを自分用に設定するため、  
-DockerfileのUID、GID、UNAME、GNAME(ARG行)に自分のユーザーID、グループID、  
+DockerfileのUID、GID、UNAME、GNAME(ARG行)に自分のユーザーID、グループID、  
 ユーザー名、グループ名をセットします。
 
 `docker-compose rust run`  
