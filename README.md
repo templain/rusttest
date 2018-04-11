@@ -12,9 +12,10 @@ DockerfileのUID,GID,UNAME,GNAMEに自分のユーザーID,グループID,ユー
 でプロジェクトのフォルダが作成されますので、このフォルダの下に移動します。
 
 雛形のソース(src/main.rs)をvimで編集し、このフォルダの下で  
-`cargo run`  
-するとsrcの下のプログラムがビルドされて実行されます。
+`cargo run`  
+を実行するとsrcの下のプログラムがビルドされて実行されます。
 
 ## Vimプラグイン
-vimにはracer、rustfmtというプラグインをインストールしてます。  
+vimにはracer、rustfmtというプラグインをインストールしてます。
+
 :RustFmtで整形、挿入モード中にC-x C-oで補完、:RustRunで実行など。
