@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  rust:
+    build: .
+    image: myrust
+    user: 500:500
+    environment:
+      USER: admacks
+    volumes:
+      - .:/usr/src/myapp
+
